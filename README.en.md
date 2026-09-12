@@ -6,13 +6,41 @@ A reusable text-development skill for one short video at a time. Start with mate
 
 Current method version: **0.5.2**. This release tightens delivery-state and routing boundaries and adds reproducible Chinese spoken-duration arithmetic. Existing P0 factual-fidelity failures remain documented and were intentionally outside this maintenance pass.
 
-## Quick start
+## Download for people
 
-Download [the standalone Markdown](https://raw.githubusercontent.com/RRR666888000/skills/main/dist/lingjiang-content.md), attach it to an agent that can read the whole file, and ask:
+- **Try without installing:** download [the complete Markdown file](https://raw.githubusercontent.com/RRR666888000/R-skill/main/dist/lingjiang-content.md), save it as `.md`, and attach it to an AI that can read the whole file.
+- **Install a skill:** download [the skill ZIP](https://raw.githubusercontent.com/RRR666888000/R-skill/main/dist/lingjiang-content.zip). Import it through your host's skill manager, or extract all its contents into a supported folder named `lingjiang-content`. Keep `SKILL.md`, `references/`, `scripts/`, `agents/` and `LICENSE`. See [host-specific instructions](docs/INSTALL.md).
+- **Browse or modify the source:** download [the repository ZIP](https://github.com/RRR666888000/R-skill/archive/refs/heads/main.zip). This is different from the importable skill ZIP.
 
-> Use the attached Lingjiang Skill. My confirmed material is […]. I want a […]-second [talking-head / voice-over / on-screen-text] video for […]. Compare a few distinct angles, recommend one, and develop a concrete outline I can expand myself. Do not invent missing events.
+The repository name is `R-skill`; the installed skill folder and invocation name remain `lingjiang-content`.
 
-For a native skill host, download [the skill ZIP](https://raw.githubusercontent.com/RRR666888000/skills/main/dist/lingjiang-content.zip). Its root contains `SKILL.md` and the required references. Extract it into a `lingjiang-content` folder in your host's supported skill directory. Claude Code uses `.claude/skills/lingjiang-content` (project) or `~/.claude/skills/lingjiang-content` (personal); invoke `/lingjiang-content`. WorkBuddy supports importing a local skill package. See [installation details](docs/INSTALL.md), including Codex, updates and removal.
+## Download and install with an Agent
+
+Copy this request to an Agent that can access the network and files:
+
+```text
+Download and install lingjiang-content from https://github.com/RRR666888000/R-skill.
+Read https://raw.githubusercontent.com/RRR666888000/R-skill/main/docs/INSTALL.md first.
+Download https://raw.githubusercontent.com/RRR666888000/R-skill/main/dist/lingjiang-content.zip
+and https://raw.githubusercontent.com/RRR666888000/R-skill/main/dist/manifest.json.
+Verify the ZIP SHA-256 and the extracted skill_files against the manifest.
+Confirm the current host's supported skill location. Install the complete contents
+in a folder named lingjiang-content with SKILL.md directly inside it.
+Back up any existing installation and preserve my edits.
+Report the actual path, version, file verification and host discovery status.
+Test invocation with fictional material where possible; disclose any refresh needed.
+Do not describe installation in a cloud sandbox as installation on my computer.
+If the host has no native skill support, read the complete standalone file at
+https://raw.githubusercontent.com/RRR666888000/R-skill/main/dist/lingjiang-content.md
+and identify this as text-based use for the conversation.
+If network or file access is unavailable, state the specific missing capability.
+```
+
+Public downloads require no repository-specific key. Agents with Git can also clone `https://github.com/RRR666888000/R-skill.git`; cloning alone does not install or enable the skill.
+
+## First request
+
+> Use Lingjiang Skill. My confirmed material is […]. I want a […]-second [talking-head / voice-over / on-screen-text] video for […]. Compare a few distinct angles, recommend one, and develop a concrete outline I can expand myself. Do not invent missing events.
 
 The core instructions are Chinese. Multilingual agents can follow a request in another language; language quality still depends on the model. Markdown portability is not certification of every host or model. Tests and failures are recorded in [tests](tests/README.md).
 
