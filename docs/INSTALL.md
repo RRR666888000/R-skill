@@ -6,9 +6,9 @@
 
 | 你的Agent能力 | 用哪个文件 |
 |---|---|
-| 支持导入本地技能包，如WorkBuddy | [技能ZIP](https://raw.githubusercontent.com/RRR666888000/skills/main/dist/lingjiang-content.zip)；根目录就是SKILL.md |
+| 支持导入本地技能包，如WorkBuddy | [技能ZIP](https://raw.githubusercontent.com/RRR666888000/R-skill/main/dist/lingjiang-content.zip)；根目录就是SKILL.md |
 | 会扫描本地Skill目录，如Claude Code或Codex | 解压技能ZIP，把内容放进名为lingjiang-content的技能文件夹 |
-| 不支持Skill，但能读完整附件或文本 | [通用Markdown](https://raw.githubusercontent.com/RRR666888000/skills/main/dist/lingjiang-content.md)；作为本次对话的方法附件 |
+| 不支持Skill，但能读完整附件或文本 | [通用Markdown](https://raw.githubusercontent.com/RRR666888000/R-skill/main/dist/lingjiang-content.md)；作为本次对话的方法附件 |
 | 无法接收方法文件或自定义指令 | 没有通用安装办法，需换可接收方法的入口 |
 
 不要把GitHub“Code → Download ZIP”得到的整仓库直接当导入包。整仓库供浏览源码；`dist/lingjiang-content.zip`才是专用技能包。
@@ -75,7 +75,7 @@
 
 ## 交给Agent安装的一句话
 
-> 请检查此仓库的SKILL.md与references，按当前宿主支持的位置安装lingjiang-content。安装前检查同名目录，有旧版先备份，不改全局指令和其他技能。完成后核对文件、引用、实际发现路径与启用状态，再用一个虚构素材验证调用。如果当前产品没有原生技能入口，请改为读取dist/lingjiang-content.md，并明确这是文本调用。仓库：https://github.com/RRR666888000/skills
+> 请检查此仓库的SKILL.md与references，按当前宿主支持的位置安装lingjiang-content。安装前检查同名目录，有旧版先备份，不改全局指令和其他技能。完成后核对文件、引用、实际发现路径与启用状态，再用一个虚构素材验证调用。如果当前产品没有原生技能入口，请改为读取dist/lingjiang-content.md，并明确这是文本调用。仓库：https://github.com/RRR666888000/R-skill
 
 ## 四层验收
 
