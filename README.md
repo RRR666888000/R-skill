@@ -8,19 +8,51 @@
 
 通常先给两三个真正不同的方向，说明谁可能想看、正文拿什么兑现，再推荐并展开一个具体骨架。你补充经历和自己的话；明确要完整稿时，它也可以写全文。它负责单条视频的文字内容；账号体系、个人IP或工作室规划、批量切片、实际拍剪及成片/数据复盘使用相应的编导、制作或分析流程。普通文章与纯转码不自动触发。
 
-## 一分钟开始
+## 人类怎么下载
 
-第一次接触 Skill？可以把它理解为交给 AI 的一套工作方法。这不是独立软件，也不需要先学代码；你仍在自己的 AI 对话里提供素材、看方向和改稿。AI 产品本身的账号、费用和附件能力由对应产品提供。
+第一次接触 Skill？它是交给 AI 的一套工作方法，你仍在自己的 AI 对话里提供素材、看方向和改稿。请选择适合自己的方式：
 
-**只想先试，不安装：** [下载通用单文件](https://raw.githubusercontent.com/RRR666888000/skills/main/dist/lingjiang-content.md)，上传给能读完整Markdown附件的Agent，再发：
+| 你的情况 | 下载什么 | 下载后怎么用 |
+|---|---|---|
+| 想先试试，不安装 | [通用单文件 Markdown](https://raw.githubusercontent.com/RRR666888000/R-skill/main/dist/lingjiang-content.md) | 保存为 `.md`，上传给能读完整附件的 AI，再发送下面的试用请求 |
+| 产品支持“上传技能包” | [技能 ZIP](https://raw.githubusercontent.com/RRR666888000/R-skill/main/dist/lingjiang-content.zip) | 在产品的技能管理里导入 ZIP，再确认启用 |
+| 使用 Codex、Claude Code 等本地 Agent | [技能 ZIP](https://raw.githubusercontent.com/RRR666888000/R-skill/main/dist/lingjiang-content.zip) | 按[安装说明](docs/INSTALL.md)解压完整内容到当前宿主的技能目录 |
+| 想查看或修改源码 | [完整仓库 ZIP](https://github.com/RRR666888000/R-skill/archive/refs/heads/main.zip) | 解压后阅读 README；这是源码包，不是直接导入的技能包 |
 
-> 请使用附件中的凌酱Skill。我的素材是【已知事实】，想做【时长、形式】的视频，目标是【希望观众得到什么/做什么】。给几个不同方向，你推荐一个展开骨架，我自己补充内容。缺少的经历不要编。
+单文件下载后如果显示一屏文字，使用浏览器“另存为”保存为 `.md`，或复制完整内容。不要只上传文件名或截图。技能 ZIP 内的入口直接是 `SKILL.md`；目录安装时保留 `references/`、`scripts/`、`agents/` 和 `LICENSE`，文件夹仍命名为 `lingjiang-content`，不是仓库名 `R-skill`。
 
-**支持导入技能包：** [下载技能ZIP](https://raw.githubusercontent.com/RRR666888000/skills/main/dist/lingjiang-content.zip)。它的根目录直接是`SKILL.md`，不是整个GitHub仓库压缩包。Claude Code、Codex等目录安装与WorkBuddy导入步骤见[安装说明](docs/INSTALL.md)。
+上传单文件或安装后，可以发：
 
-安装后可说：`用凌酱Skill，帮我碰撞这条短视频的方向。` Claude Code也可用`/lingjiang-content`，Codex可显式用`$lingjiang-content`；命令是否提供由宿主决定。
+> 请使用凌酱 Skill。我的已知素材是【材料】，想做【时长、形式】的视频，目标是【希望观众得到什么】。比较几个不同方向，推荐一个展开骨架，我自己补充内容。缺少的经历不要编。
 
-如果下载链接打开了一屏文字，保存为 `.md` 文件后再上传，或复制完整内容；不要只给 AI 看文件名。附件无法完整读取时，改用支持文件的入口。想让 Agent 代安装，可直接复制[安装请求](docs/INSTALL.md#交给agent安装的一句话)。
+## Agent 怎么下载并安装
+
+如果你的 Agent 可以联网并操作当前环境的文件，**复制下面整段发给它**即可。无需你自己执行命令。
+
+```text
+请从下面的公开仓库下载并安装 lingjiang-content（凌酱 Skill）：
+仓库：https://github.com/RRR666888000/R-skill
+安装说明：https://raw.githubusercontent.com/RRR666888000/R-skill/main/docs/INSTALL.md
+技能包：https://raw.githubusercontent.com/RRR666888000/R-skill/main/dist/lingjiang-content.zip
+校验清单：https://raw.githubusercontent.com/RRR666888000/R-skill/main/dist/manifest.json
+无原生技能入口时使用的完整单文件：
+https://raw.githubusercontent.com/RRR666888000/R-skill/main/dist/lingjiang-content.md
+
+先读取安装说明，确认你当前宿主支持的技能目录和安装作用域。
+下载技能包与校验清单，核对ZIP的SHA-256及解压后的skill_files。
+将完整内容安装到名为lingjiang-content的目录，确保SKILL.md直接位于该目录下。
+已有同名版本时先备份并保留我的修改，不改其他技能或全局指令。
+安装后报告实际路径、版本、文件校验结果，以及宿主是否发现该技能。
+能在当前环境调用时，用虚构素材验证一次；需要刷新或新开会话时如实说明。
+若只能操作云端/沙箱，不要声称已经安装到我的电脑。
+若没有原生Skill入口，读取完整单文件用于本次对话，并说明是文本调用。
+若不能联网或写文件，明确具体缺项，告诉我需要下载或放置哪个文件。
+不要仅给我安装教程，也不要把下载完成说成安装、发现和调用都已完成。
+```
+
+Agent 可通过上面的公开 HTTPS 地址获取文件，也可用 Git 下载源码：`git clone https://github.com/RRR666888000/R-skill.git`。克隆只得到源码；接着仍需按宿主规则安装，不能把源码目录自动视为已启用技能。公开下载不需要本仓库专属密钥；网络、文件权限和原生 Skill 支持由 Agent 所在环境决定。
+
+原生安装后的调用：Codex 可用 `$lingjiang-content`，Claude Code 可用 `/lingjiang-content`；其他宿主以[安装说明](docs/INSTALL.md)及其实际支持为准。没有原生入口但能读取完整文件的 Agent，也可以按单文件方式试用。
 
 ## 第一次可以这样试
 
@@ -65,6 +97,6 @@
 
 ## 更新与反馈
 
-新版用法和卸载见[安装说明](docs/INSTALL.md)。若结果不合适，请提供脱敏输入、实际输出、使用的宿主/模型、希望完成的作用，以及落差发生在哪里。不要提供账号密钥、未公开客户资料或课程原文。可以在[Issues](https://github.com/RRR666888000/skills/issues)反馈，或自行修改后提交PR。
+新版用法和卸载见[安装说明](docs/INSTALL.md)。若结果不合适，请提供脱敏输入、实际输出、使用的宿主/模型、希望完成的作用，以及落差发生在哪里。不要提供账号密钥、未公开客户资料或课程原文。可以在[Issues](https://github.com/RRR666888000/R-skill/issues)反馈，或自行修改后提交PR。
 
 方法参考、适用边界见[来源说明](references/sources.md)。本仓库不含书籍、课程、电影剧本、私人创作记录或上游Skill原文，不代表原作者背书。[MIT许可](LICENSE)仅适用于本仓库原创说明、脚本及测试，第三方原作权利不受影响。
