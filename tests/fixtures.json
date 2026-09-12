@@ -1,0 +1,72 @@
+[
+  {
+    "id": "040-A",
+    "context": "independent",
+    "prompt": "我拍了个旧水杯，缺口了还在用。给三个能拍成2分钟的真实经历方向，你选一个展开。除了这句我没别的材料，你自己发挥，但不能编造。"
+  },
+  {
+    "id": "040-B",
+    "context": "independent",
+    "prompt": "我想写90秒纯口播：我给AI看了八张老照片，它把小学门口当火车站，说依据是拱门和人群，后来我查校刊核对。目标是让关心AI边界的人关注。我需要愤怒、荒诞的开头，但不要编我的情绪经历。先给方向和骨架。"
+  },
+  {
+    "id": "040-C",
+    "context": "continuation of 040-A",
+    "prompt": "以上A补充：杯子不是我的，照片在二手网站看到，我想讨论人为何给陌生旧物编故事。现在只给新的方向，不写全文。"
+  },
+  {
+    "id": "040-D",
+    "context": "independent",
+    "prompt": "为虚构便利店写45秒广告剧情，允许虚构人物。产品是普通无糖气泡水，无治疗作用，主题是午后换口味；轻微荒诞，不要主人公成功逆袭，不要许诺减肥。直接给全文。"
+  },
+  {
+    "id": "040-E",
+    "context": "independent",
+    "prompt": "同一组材料：一个人下班后把桌面全清空，第二天又把正在用的工具放回来。给“留空更自在”和“东西在手边更自在”两个相反方向，各一个具体骨架。不要替我选价值观，不要猜此人动机。"
+  },
+  {
+    "id": "040-F",
+    "context": "independent",
+    "prompt": "只审计，不改写：学习AI就能取代律师。我拿它写了一份起诉书，法院已经立案，所以证明AI能打赢官司。关注我，下条告诉你怎么稳赢。我要吸引愿意看AI真实能力的人，分析观众会怎样进来和留下。"
+  },
+  {
+    "id": "050-A",
+    "context": "fresh independent agent",
+    "prompt": "我给AI看八张老照片，它把小学门口当成火车站，理由是拱门和人群。我后来查了校刊核对。我想做90秒纯口播吸引关心AI边界的人，给三个方向，你选一个展开。不要补我没说的经历。"
+  },
+  {
+    "id": "050-B",
+    "context": "independent request in same agent as 050-A",
+    "prompt": "同一组材料：有人下班把桌面清空，第二天把正在用的工具放回来。给“留空更自在”和“东西在手边更自在”两个相反方向的骨架，不猜当事人动机。"
+  },
+  {
+    "id": "050-C",
+    "context": "fresh independent agent",
+    "prompt": "做一条20秒无口播、无字幕的小视频，只用我现有画面：窗帘被风吹动、雨滴打在窗玻璃、窗边的灯亮着。给两个不同方向并选一个展开。不要借助人物出镜或新增镜头，不要给我人生道理。"
+  },
+  {
+    "id": "050-D",
+    "context": "independent request in same agent as 050-C",
+    "prompt": "用我自己的样稿当本次风格参考：“这事吧，我先试。试完再说。好使就留，不好使就换。” 请保留短句、轻微自嘲、先动手后判断的说话感觉。新事实：我买了两支笔，一支粗，一支细；只想做30秒选笔口播，先给一个骨架，别编测试效果。"
+  },
+  {
+    "id": "H1",
+    "context": "fresh Claude Code process; final method; see claude-runs.json for exact hash and mode",
+    "prompt": "已知素材：我看到同事连续三天下班前把桌上的两支笔放进抽屉，不知道他为什么这么做。想做30秒纯口播，给两个有差异的方向，推荐一个骨架；只讲真实观察，不替同事编心理或结果。"
+  },
+  {
+    "id": "H2",
+    "context": "fresh Claude Code process; final method; see claude-runs.json for exact hash and mode",
+    "prompt": "我今天拿同一支笔在A、B两本本子上各画了一条线。A这本线条看着更粗，B更细。没有测纸张、用力或笔尖角度。我想做45秒纯口播，聊从一次体验怎么谨慎得出结论。请给两个方向，展开推荐方向；别编原因或测试结果。"
+  },
+  {
+    "id": "H3",
+    "context": "fresh Claude Code process; final method; see claude-runs.json for exact hash and mode",
+    "prompt": "朋友告诉我，他昨晚在小区看见一位老人把一袋东西放在门卫室。我没有到场，也不知道袋子装了什么。想围绕这个信息做30秒短视频，只讲真实材料，给两种方向和推荐骨架，不要变成虚构故事。"
+  },
+  {
+    "id": "H4",
+    "context": "fresh Claude Code process; final method; see claude-runs.json for exact hash and mode",
+    "prompt": "给一款虚构的普通无糖苏打水做30秒荒诞小剧场。可以自由编人物、对白和情节，但不给任何健康功效。主角是一个想当公司门禁的纸箱，给两种方向，你推荐一个展开完整短稿。"
+  }
+]

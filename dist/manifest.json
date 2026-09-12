@@ -1,0 +1,26 @@
+{
+  "version": "0.5.2",
+  "skill_files": {
+    "SKILL.md": "85020a4cc4e6dc57c1213cf0934690ae74580f667718593c60ec95b3d6c607be",
+    "LICENSE": "d129b834db1e328f16ae8c874dea7e7b69dc29ed20391798469420e015e099e7",
+    "references/audience-audit.md": "05a8ca6fe41b24d8893e9727d66847ea17b6776c33a7cd6ac9fe23114e2ed221",
+    "references/commercial.md": "beac532f394268ff2f319c4ec5ac535e4ad5710614674ad8c9ca6fea57e02716",
+    "references/development.md": "20cba567ccd864dbc8f226262cf3b2ad5d1155638a487d294ff4f1cc59c7816e",
+    "references/expression.md": "3fd1d2d755d6a05c849379a90576421d410427e5a03e3afbe353f3bba46e9835",
+    "references/method-options.md": "4e7df155212ecd718f60fc263c30403815ff3d752d834ca642be5a954296552f",
+    "references/production.md": "53e4ca24606ba6087c51d11c7ffc65c9549488f0116d7a5b0437c2a109570df3",
+    "references/series.md": "abc6143aa99417811615774d73a8e78ad6d6191395a64ec90b972527e3f1afa2",
+    "references/sources.md": "bc29b0341b6c960856cf15ddd1e357783a20aa140809718aa291ae03063e618d",
+    "agents/openai.yaml": "1257f182fcceef949d361a9e6d77ef9b6c4d3b311812fc8734ecfc86926537fe",
+    "scripts/estimate_duration.py": "9f03ccc49fc27e092a78c8749565c94d3a229668c8fad79a0dfc63f53e32e454"
+  },
+  "artifacts": {
+    "lingjiang-content.md": "51d2b577b4488493d71305fa59d688c5f9c9bb3d0d3b68cdeac842e4ef2b1434",
+    "lingjiang-content.zip": "1480d1c91ed89169bb0bc230720eb83c6113269e8a0d0bbc46724408e25da90d"
+  },
+  "single_file_characters": 23230,
+  "runtime_dependencies": [],
+  "optional_runtime_dependencies": [
+    "Python 3.9+ for scripts/estimate_duration.py"
+  ]
+}

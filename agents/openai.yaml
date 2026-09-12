@@ -1,0 +1,6 @@
+interface:
+  display_name: "凌酱 Skill"
+  short_description: "单条短视频的文字选题、方向、骨架、成稿、局改与受众审计"
+  default_prompt: "用 $lingjiang-content 处理这条短视频的文字内容；先按我的要求锁定方向、骨架、全文、局部修改或审计状态，不擅自扩大交付。"
+policy:
+  allow_implicit_invocation: true

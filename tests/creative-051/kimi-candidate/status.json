@@ -1,0 +1,21 @@
+{
+  "mode": "text",
+  "exit_code": 0,
+  "result_subtype": "success",
+  "model": "kimi-k2.6",
+  "skill_sha256": "434f3ae3caff689f36baca8ed37c1d8575b8383dfbe8cbade0afe4f47e93377a",
+  "method_hashes": {
+    "SKILL.md": "434f3ae3caff689f36baca8ed37c1d8575b8383dfbe8cbade0afe4f47e93377a",
+    "references/audience-audit.md": "05a8ca6fe41b24d8893e9727d66847ea17b6776c33a7cd6ac9fe23114e2ed221",
+    "references/commercial.md": "beac532f394268ff2f319c4ec5ac535e4ad5710614674ad8c9ca6fea57e02716",
+    "references/development.md": "effd8874556800fd92ffd0d7a88943172b6095c46d4f6108c6d6e432f7afbd8d",
+    "references/expression.md": "b388d4ea7aefb50b6a39d3ab8e8470d729dea60ef6a3dbaa82e40cb9a929e694",
+    "references/method-options.md": "4e7df155212ecd718f60fc263c30403815ff3d752d834ca642be5a954296552f",
+    "references/production.md": "53e4ca24606ba6087c51d11c7ffc65c9549488f0116d7a5b0437c2a109570df3",
+    "references/series.md": "abc6143aa99417811615774d73a8e78ad6d6191395a64ec90b972527e3f1afa2",
+    "references/sources.md": "4788ea605da2c800abd9f70d05b8439e4a3e6ab6b63399991edce077a95bfbef"
+  },
+  "elapsed_seconds": 126.9,
+  "behavior_result": "fail",
+  "review": "补今天、仅一个问题、靠椅动作、砂纸及刺手动机；自查承认后仍留在示例，未满足事实边界。方向一三正文基本通用。"
+}

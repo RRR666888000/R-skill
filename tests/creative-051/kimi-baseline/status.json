@@ -1,0 +1,21 @@
+{
+  "mode": "text",
+  "exit_code": 0,
+  "result_subtype": "success",
+  "model": "kimi-k2.6",
+  "skill_sha256": "df1eaf793234af7460f8c81aa680ea3778dffbe40dcd031d0be17655d2ad30a7",
+  "method_hashes": {
+    "SKILL.md": "df1eaf793234af7460f8c81aa680ea3778dffbe40dcd031d0be17655d2ad30a7",
+    "references/audience-audit.md": "c3593841a2a0c46823fe76fc48db9f4a3c1c8dc02643b2a17b68072f9ac01601",
+    "references/commercial.md": "beac532f394268ff2f319c4ec5ac535e4ad5710614674ad8c9ca6fea57e02716",
+    "references/development.md": "e1f57b834424a464b5a5a3192e22d04d8a5692e6c2c319dc013085be68439349",
+    "references/expression.md": "b388d4ea7aefb50b6a39d3ab8e8470d729dea60ef6a3dbaa82e40cb9a929e694",
+    "references/method-options.md": "4e7df155212ecd718f60fc263c30403815ff3d752d834ca642be5a954296552f",
+    "references/production.md": "53e4ca24606ba6087c51d11c7ffc65c9549488f0116d7a5b0437c2a109570df3",
+    "references/series.md": "abc6143aa99417811615774d73a8e78ad6d6191395a64ec90b972527e3f1afa2",
+    "references/sources.md": "4788ea605da2c800abd9f70d05b8439e4a3e6ab6b63399991edce077a95bfbef"
+  },
+  "elapsed_seconds": 147.0,
+  "behavior_result": "fail",
+  "review": "补今天、操作先后、首次坐下感受等未确认信息；需要保留原因的建议过于绝对。"
+}
