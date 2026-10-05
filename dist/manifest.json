@@ -1,7 +1,7 @@
 {
-  "version": "0.5.3",
+  "version": "0.6.0",
   "skill_files": {
-    "SKILL.md": "8a62efd08ba7a0328f01d4e065e2332af3ec21c2540fe7d28f1316a6c1dd1a04",
+    "SKILL.md": "20a77c58a91da50236f0bd69b4e67e9d20daf3a096c28f824d00238e5a36b781",
     "LICENSE": "d129b834db1e328f16ae8c874dea7e7b69dc29ed20391798469420e015e099e7",
     "references/audience-audit.md": "05a8ca6fe41b24d8893e9727d66847ea17b6776c33a7cd6ac9fe23114e2ed221",
     "references/commercial.md": "beac532f394268ff2f319c4ec5ac535e4ad5710614674ad8c9ca6fea57e02716",
@@ -10,16 +10,17 @@
     "references/method-options.md": "4e7df155212ecd718f60fc263c30403815ff3d752d834ca642be5a954296552f",
     "references/production.md": "53e4ca24606ba6087c51d11c7ffc65c9549488f0116d7a5b0437c2a109570df3",
     "references/series.md": "abc6143aa99417811615774d73a8e78ad6d6191395a64ec90b972527e3f1afa2",
-    "references/soul-questions.md": "c965037268ab242d44d1433bc7d861ea1218c81cc280aa2ad8af643788aca4ed",
-    "references/sources.md": "3c96b32007c39e817587f7d732da24fbabf439ac8b3023e129bad0c898798351",
+    "references/soul-delivery.md": "cee3cb6cc6bf0f8607e214dd631a28b839f2cc8cc097aa5d72ad7b315fb7a594",
+    "references/soul-questions.md": "7b788fbf8b6514554383b7e3000f8909e5d6b8fcf4bd592c7d8d19daa475ddcc",
+    "references/sources.md": "f96f0ff47ddd58c5e7a78a7e7b2932ce87e260f684be63b29797afae5fd8f805",
     "agents/openai.yaml": "6892c8eea088f8504865b6a22cdc78b9b4dc4707c8cb9648a3cdaa7b0cadda48",
     "scripts/estimate_duration.py": "9f03ccc49fc27e092a78c8749565c94d3a229668c8fad79a0dfc63f53e32e454"
   },
   "artifacts": {
-    "lingjiang-content.md": "a8e6838dde8c334c7e3a4f00e65446ddd6fe84537d27eeb8db446471ad4c0432",
-    "lingjiang-content.zip": "68a59a6d8451554dd7a5ff29a7f91dd3f7560e52f9ccb5fda4735f2c6a51e47a"
+    "lingjiang-content.md": "4ab9000ca7cbbb0ddc0a7997195a59d960764b1474c00381c45e18bde6ddcf83",
+    "lingjiang-content.zip": "9b9989f3a3de281c3b8dd70f8c9d41e072b451fb6057bae13abc99e32d47f745"
   },
-  "single_file_characters": 26609,
+  "single_file_characters": 29717,
   "runtime_dependencies": [],
   "optional_runtime_dependencies": [
     "Python 3.9+ for scripts/estimate_duration.py"
