@@ -4,7 +4,9 @@
 
 A reusable text-development skill for one short video at a time. Start with materially different angles, compare the reasons people might watch, then develop an outline the creator can fill with their own experience and voice. A full script is written only when explicitly requested. Account strategy, creator-business planning, batch clip libraries, hands-on editing, finished-video review and performance analysis belong to their respective workflows. The name is a project brand, not a requirement to follow one creator's style or business.
 
-Current method version: **0.6.0**. This release preserves the six Soul Questions and adds post-dialogue delivery, evidence-to-action mapping, reusable wording and structures, handoff summaries, feedback review, and explicitly authorized product simulations. The following describes the preceding 0.5.2 release: This release tightens delivery-state and routing boundaries and adds reproducible Chinese spoken-duration arithmetic. Existing P0 factual-fidelity failures remain documented and were intentionally outside this maintenance pass.
+Current method version: **0.6.1**. This release preserves the six Soul Questions and adds post-dialogue delivery, evidence-to-action mapping, reusable wording and structures, handoff summaries, feedback review, and explicitly authorized product simulations. The following describes the preceding 0.5.2 release: This release tightens delivery-state and routing boundaries and adds reproducible Chinese spoken-duration arithmetic. Existing P0 factual-fidelity failures remain documented and were intentionally outside this maintenance pass.
+
+0.6.1 adds a small-sample starting example, a sample-to-benchmark-to-template testing procedure, and a complete-research delivery checklist. The six adapted questions remain unchanged.
 
 ## Soul Questions subfeature
 

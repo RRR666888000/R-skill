@@ -1,7 +1,7 @@
 {
-  "version": "0.6.0",
+  "version": "0.6.1",
   "skill_files": {
-    "SKILL.md": "20a77c58a91da50236f0bd69b4e67e9d20daf3a096c28f824d00238e5a36b781",
+    "SKILL.md": "f13944b19cf951feba5000ee55749770d0cebfdf88bb9e328fa0a54d6035054b",
     "LICENSE": "d129b834db1e328f16ae8c874dea7e7b69dc29ed20391798469420e015e099e7",
     "references/audience-audit.md": "05a8ca6fe41b24d8893e9727d66847ea17b6776c33a7cd6ac9fe23114e2ed221",
     "references/commercial.md": "beac532f394268ff2f319c4ec5ac535e4ad5710614674ad8c9ca6fea57e02716",
@@ -10,17 +10,18 @@
     "references/method-options.md": "4e7df155212ecd718f60fc263c30403815ff3d752d834ca642be5a954296552f",
     "references/production.md": "53e4ca24606ba6087c51d11c7ffc65c9549488f0116d7a5b0437c2a109570df3",
     "references/series.md": "abc6143aa99417811615774d73a8e78ad6d6191395a64ec90b972527e3f1afa2",
-    "references/soul-delivery.md": "cee3cb6cc6bf0f8607e214dd631a28b839f2cc8cc097aa5d72ad7b315fb7a594",
+    "references/soul-delivery.md": "0a8441c2c80e878d2d98832856e9b12def41a1807daedf8cf0fa787a81724cd9",
     "references/soul-questions.md": "7b788fbf8b6514554383b7e3000f8909e5d6b8fcf4bd592c7d8d19daa475ddcc",
-    "references/sources.md": "f96f0ff47ddd58c5e7a78a7e7b2932ce87e260f684be63b29797afae5fd8f805",
+    "references/soul-research.md": "999591a8f7c5b7cbef2a2595ba3b4f8074e359e786c9abbf86912a670d5a8055",
+    "references/sources.md": "2b7e30f6c5248579e864a533f340c5bf5dc25ed1f4721c44fd05e3e8b9421e22",
     "agents/openai.yaml": "6892c8eea088f8504865b6a22cdc78b9b4dc4707c8cb9648a3cdaa7b0cadda48",
     "scripts/estimate_duration.py": "9f03ccc49fc27e092a78c8749565c94d3a229668c8fad79a0dfc63f53e32e454"
   },
   "artifacts": {
-    "lingjiang-content.md": "4ab9000ca7cbbb0ddc0a7997195a59d960764b1474c00381c45e18bde6ddcf83",
-    "lingjiang-content.zip": "9b9989f3a3de281c3b8dd70f8c9d41e072b451fb6057bae13abc99e32d47f745"
+    "lingjiang-content.md": "b0c019c52363b057d6ceb61abdb57197c149c370c0c61668718d22424869d05d",
+    "lingjiang-content.zip": "0aa5c15b00399b742a853addab18c716013e3d68113179c75d283494bfe9c267"
   },
-  "single_file_characters": 29717,
+  "single_file_characters": 31896,
   "runtime_dependencies": [],
   "optional_runtime_dependencies": [
     "Python 3.9+ for scripts/estimate_duration.py"
