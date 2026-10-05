@@ -4,7 +4,11 @@
 
 A reusable text-development skill for one short video at a time. Start with materially different angles, compare the reasons people might watch, then develop an outline the creator can fill with their own experience and voice. A full script is written only when explicitly requested. Account strategy, creator-business planning, batch clip libraries, hands-on editing, finished-video review and performance analysis belong to their respective workflows. The name is a project brand, not a requirement to follow one creator's style or business.
 
-Current method version: **0.5.2**. This release tightens delivery-state and routing boundaries and adds reproducible Chinese spoken-duration arithmetic. Existing P0 factual-fidelity failures remain documented and were intentionally outside this maintenance pass.
+Current method version: **0.5.3**. This release embeds the six-stage Soul Questions module without changing its existing questions. The following describes the preceding 0.5.2 release: This release tightens delivery-state and routing boundaries and adds reproducible Chinese spoken-duration arithmetic. Existing P0 factual-fidelity failures remain documented and were intentionally outside this maintenance pass.
+
+## Soul Questions subfeature
+
+Say “灵魂问答” (Soul Questions) with a topic to enter the embedded six-stage dialogue: audience, concrete person, demand, evidence, decision barriers, and business benchmarks. The agent asks one group at a time and carries confirmed answers forward. The module also handles sales copy, new products, business ideas and execution questions; ordinary video-development behavior remains scoped as before. It is bundled in the directory, ZIP and standalone Markdown, with no dependency on another installed skill. Proposed future upgrades have not been applied.
 
 ## Download for people
 
@@ -51,3 +55,4 @@ No paid service, API key, private course or other skill is required for content 
 ## Observed reliability limit
 
 Claude Code native discovery works in the recorded environment, but its configured `kimi-k2.6` model failed multiple sparse factual-material cases, inventing details, personal reactions or invalid reasoning rules. This is not an Anthropic-model test. Check factual claims before use; reading a package does not certify model behavior. See the complete [test record](tests/README.md).
+
