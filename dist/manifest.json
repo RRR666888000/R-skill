@@ -1,7 +1,7 @@
 {
-  "version": "0.7.0",
+  "version": "0.8.0",
   "skill_files": {
-    "SKILL.md": "e8c830304798a56f24a66821217ee139ccd011cce32381213059bedd11838258",
+    "SKILL.md": "5d9bf11b7caad97f16afc7d4db4f717b84c1fa03479766c0452b38474cdaae11",
     "LICENSE": "d129b834db1e328f16ae8c874dea7e7b69dc29ed20391798469420e015e099e7",
     "references/audience-audit.md": "05a8ca6fe41b24d8893e9727d66847ea17b6776c33a7cd6ac9fe23114e2ed221",
     "references/commercial.md": "beac532f394268ff2f319c4ec5ac535e4ad5710614674ad8c9ca6fea57e02716",
@@ -10,16 +10,19 @@
     "references/method-options.md": "4e7df155212ecd718f60fc263c30403815ff3d752d834ca642be5a954296552f",
     "references/production.md": "53e4ca24606ba6087c51d11c7ffc65c9549488f0116d7a5b0437c2a109570df3",
     "references/series.md": "abc6143aa99417811615774d73a8e78ad6d6191395a64ec90b972527e3f1afa2",
+    "references/soul-prompt-inventory.md": "94b0fa8616ae1f3695938732a6ec0b3644c2c37de0f4bcf182e67f261f860845",
     "references/soul-questions.md": "81a78c8a8924b624331be5bd37aa80cb1e2596c36121d0ef0ccfa8c0e3fb6a5d",
-    "references/sources.md": "964d8ddc28debf121527c9729700b21bce42b721bc8f9d379c360e284c975395",
-    "agents/openai.yaml": "b12bd7d77ca46071f5a46b777acd3ea22958e43368140fc52fc77b8e0e39b078",
+    "references/soul-source-context.md": "03adc5860d41812472281680a52ba33a3312775b79b2988c7792dbd6ad5ef274",
+    "references/soul-workflow.md": "4d03764050b4e7de8d6cb4ebed5334142c7c1bb6b8d0868823226eca4f6a2341",
+    "references/sources.md": "91f4d18041a67841b5e42ba28c06c8e7a02c4f0a587a39874b74075650bd6bac",
+    "agents/openai.yaml": "a6f4d9105e08be553c258827bc2e98dc387538b1baf7f1dd4ea6978ffa93f3a1",
     "scripts/estimate_duration.py": "9f03ccc49fc27e092a78c8749565c94d3a229668c8fad79a0dfc63f53e32e454"
   },
   "artifacts": {
-    "lingjiang-content.md": "1e652e077d53ec00e5b301f658488566655b35ea1bf851ca9f7c3dd0ebea0f66",
-    "lingjiang-content.zip": "81f599537397cfaab23d81ac772262f4b8e472af89fc712259bcfccb550bf07e"
+    "lingjiang-content.md": "b2a99c64c99e34a4cb4404389a73ae0a80274be04d4cbf23c1d034a36fbc8c7e",
+    "lingjiang-content.zip": "aa5f98fe190f5f4a5f3885dee1bca0a996e7c452cd6041e14734e683cf37e8ea"
   },
-  "single_file_characters": 25994,
+  "single_file_characters": 43239,
   "runtime_dependencies": [],
   "optional_runtime_dependencies": [
     "Python 3.9+ for scripts/estimate_duration.py"

@@ -1,7 +1,7 @@
 interface:
   display_name: 凌酱 Skill
-  short_description: "短视频方向、骨架与成稿；灵魂问答调用作者六段原始提示词"
-  default_prompt: "用 $lingjiang-content 的灵魂问答，按作者原文提示词执行。"
+  short_description: 保留作者原文与全文调研步骤，逐组灵魂问答并用真实数据校正
+  default_prompt: 用 $lingjiang-content 开启灵魂问答，逐组带我完成原文流程。
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:

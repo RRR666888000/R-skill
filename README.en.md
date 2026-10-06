@@ -4,13 +4,15 @@
 
 A reusable text-development skill for one short video at a time. Start with materially different angles, compare the reasons people might watch, then develop an outline the creator can fill with their own experience and voice. A full script is written only when explicitly requested. Account strategy, creator-business planning, batch clip libraries, hands-on editing, finished-video review and performance analysis belong to their respective workflows. The name is a project brand, not a requirement to follow one creator's style or business.
 
-Current method version: **0.7.0**. Soul Questions now contains the six original prompts extracted verbatim from the article text supplied by the user. Internal wording, punctuation, spaces and line breaks are preserved; blank lines separate the prompts. Previous adapted questions and custom research, delivery, handoff and review extensions have been removed. Ordinary video-development rules and documented factual-fidelity limitations remain unchanged.
+Current method version: **0.8.0**. Restores article procedures and the user-requested interactive workflow lost in 0.7.0. The six verbatim prompts are unchanged. Additional AI task descriptions, the author's filled business example, sampling, keywords, same-industry templates and correction against real buyer data are now included, with original excerpts separated from execution instructions.
 
 ## Soul Questions subfeature
 
-Say “灵魂问答” (Soul Questions) to load and follow [the six original prompts](references/soul-questions.md), shared by aix阿乐 (@Leepriest1990). They are included in the directory, ZIP and standalone Markdown. No rewritten questions or custom workflow are added to the prompt file.
+Say “灵魂问答” (Soul Questions) with a topic. The agent uses known inputs, asks one group at a time, and performs the corresponding analysis after the user's answer. Original quantities remain required; a narrower scope requires an explicit user request. Missing evidence is reported rather than fabricated.
 
-When upgrading, remove the retired official files `references/soul-delivery.md` and `references/soul-research.md`, backing up any local edits first. See [0.7.0 source-fidelity checks](tests/soul-070/README.md). Earlier Soul Questions test records describe superseded releases, not the current original-prompt version.
+Read [the original prompts](references/soul-questions.md), [the full AI-instruction inventory](references/soul-prompt-inventory.md), [verbatim article context](references/soul-source-context.md), and [the execution workflow](references/soul-workflow.md). The latter distinguishes article-derived procedures from user-requested interaction and business adaptation. The author's B2B example must not cause a consumer-product business to reject its own buyers as irrelevant.
+
+These files are bundled in the directory, ZIP and standalone Markdown. Remove superseded official `references/soul-delivery.md` and `references/soul-research.md` when upgrading, preserving local custom edits separately. Ordinary video rules and historical fidelity failures remain unchanged. See [0.8.0 checks](tests/soul-080/README.md); older Soul Questions records describe prior versions.
 
 ## Download for people
 

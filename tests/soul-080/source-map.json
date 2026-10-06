@@ -1,0 +1,287 @@
+{
+  "source_file": "粘贴的文本 (1).txt",
+  "source_sha256": "c6a6a056aad7553a542c70312feea9d8cc58e09c6af4f7b347c0731e12f00fff",
+  "records": [
+    {
+      "kind": "ai-context",
+      "label": "A0 全系列将提供 AI 命令的说明",
+      "start_line": 4,
+      "end_line": 4,
+      "characters": 71,
+      "sha256": "2bf71875b908a1fba686fe50ecac2eec0fe357de08ca138b482cd517b66bbb05"
+    },
+    {
+      "kind": "ai-context",
+      "label": "A1 真实对话作为画像输入",
+      "start_line": 28,
+      "end_line": 31,
+      "characters": 212,
+      "sha256": "f5de5d189e87699f98f1d8dd3bf4c8aa85cded8c268a809e7c53fa5fd8813da2"
+    },
+    {
+      "kind": "ai-context",
+      "label": "A2 谁会买、市场多大及逐条验证",
+      "start_line": 57,
+      "end_line": 58,
+      "characters": 133,
+      "sha256": "6e03948fc4bcc24f025e2d9e42b19fc4d8141c5316f79ee930114d076ad6d44b"
+    },
+    {
+      "kind": "ai-context",
+      "label": "A3 画像指令的引导语",
+      "start_line": 85,
+      "end_line": 85,
+      "characters": 17,
+      "sha256": "de4884f85b7bfe92321e48fe317c30599f2fb8975b6d3f9b6f875987237c11ca"
+    },
+    {
+      "kind": "ai-context",
+      "label": "A4 数据交给 AI 批量分析的产品能力描述",
+      "start_line": 120,
+      "end_line": 120,
+      "characters": 72,
+      "sha256": "d28ab323787040a1878478e7ba789f38d36c69f098e7cb30a23645126c238546"
+    },
+    {
+      "kind": "ai-context",
+      "label": "A5 按顺序推导需求的引导语",
+      "start_line": 131,
+      "end_line": 131,
+      "characters": 35,
+      "sha256": "633172196a1312bad241e60d906736599f8e4309f2670153a4f805a2219e98cd"
+    },
+    {
+      "kind": "ai-context",
+      "label": "A6 采样后交给 AI 分类统计与视角判定",
+      "start_line": 182,
+      "end_line": 182,
+      "characters": 41,
+      "sha256": "67ddbef40db02413971c919b6eb23827b135edb2ffcb9eba4c290e086ee8d34f"
+    },
+    {
+      "kind": "ai-context",
+      "label": "A7 交给 AI 反推问题的引导语",
+      "start_line": 222,
+      "end_line": 223,
+      "characters": 49,
+      "sha256": "cb05847a915fdf5d5c7f616696f3cc36ec6d318e79985a057b823c4a22fd7d95"
+    },
+    {
+      "kind": "ai-context",
+      "label": "A8 按每条路径、每个场景穷举",
+      "start_line": 242,
+      "end_line": 242,
+      "characters": 45,
+      "sha256": "f4ce0f0c2b0757bda1cc9c07490e19a282c6a7f6bb25ee4d443c8f5a1691b07d"
+    },
+    {
+      "kind": "ai-context",
+      "label": "A9 集中整理数据、反推同行规律与对标",
+      "start_line": 266,
+      "end_line": 267,
+      "characters": 134,
+      "sha256": "38a1d6d32d336ac22c29e81c4756a0036d96527d23ed9569643e1210eacd4eb6"
+    },
+    {
+      "kind": "ai-context",
+      "label": "A10 作者实际填写的业务描述",
+      "start_line": 321,
+      "end_line": 321,
+      "characters": 106,
+      "sha256": "e47eebfaf2f8612720984c1fc8df0d4445427eaa119f44c6e8950a8b7a6cee2d"
+    },
+    {
+      "kind": "ai-context",
+      "label": "A11 成交时记录资料，再交给 AI 做画像",
+      "start_line": 327,
+      "end_line": 329,
+      "characters": 135,
+      "sha256": "10c590e925d47a1c721a3a95e33f22c44126cfdba67e6e5d36a15e0bdd3b28fb"
+    },
+    {
+      "kind": "ai-context",
+      "label": "A12 对真实数据、修改后再跑第二遍",
+      "start_line": 348,
+      "end_line": 350,
+      "characters": 201,
+      "sha256": "6c9850dd5be4a0b6ef3b453b8f8ae1912a1834a763f429d91f64be66730129e0"
+    },
+    {
+      "kind": "ai-context",
+      "label": "A13 交付清单再次要求 AI 生成100问",
+      "start_line": 356,
+      "end_line": 356,
+      "characters": 57,
+      "sha256": "bf70e73a251b103696499352d2047d4645b5e3c773393db5c0bccb6eefa0c8fd"
+    },
+    {
+      "kind": "method-context",
+      "label": "C0 序言：凭感觉与盲目抄对标的问题",
+      "start_line": 7,
+      "end_line": 18,
+      "characters": 408,
+      "sha256": "9e15ea24b2fd2bac0563ba18323956c9b6f884f077c53d71dde8459e5804b489"
+    },
+    {
+      "kind": "method-context",
+      "label": "C1 第一节：共识与真实用户对话",
+      "start_line": 22,
+      "end_line": 31,
+      "characters": 434,
+      "sha256": "f9115315f6a28fc252cdc6b9aaa00fe87597c46aadb799e808f82a1018d59f33"
+    },
+    {
+      "kind": "method-context",
+      "label": "C2 第二节：从购买处境判断人群",
+      "start_line": 39,
+      "end_line": 57,
+      "characters": 870,
+      "sha256": "dc73c6b25108926e27fb0f53ae367ef3937a81a5acbe98f417a024da4a6f1d45"
+    },
+    {
+      "kind": "method-context",
+      "label": "C3 第三节：具体人物与决策效率",
+      "start_line": 74,
+      "end_line": 84,
+      "characters": 339,
+      "sha256": "41c5659a4a249b56eb27455887c85636df6c65fde178e3eb54497149fe1aa10b"
+    },
+    {
+      "kind": "method-context",
+      "label": "C4 第四节：完整需求推导案例",
+      "start_line": 103,
+      "end_line": 130,
+      "characters": 901,
+      "sha256": "0624371aa9ce52a6ae47bf1ac499aa4b5fb2eb30dc7225cea253a9c158fc2966"
+    },
+    {
+      "kind": "method-context",
+      "label": "C5 第五节：顾虑成为内容",
+      "start_line": 146,
+      "end_line": 158,
+      "characters": 386,
+      "sha256": "bae77f0eea576c84442be8530bdce62f130ed63a4b6878c4f9963af4d2c465ee"
+    },
+    {
+      "kind": "method-context",
+      "label": "C6 第六节：无内测用户时采样",
+      "start_line": 161,
+      "end_line": 182,
+      "characters": 791,
+      "sha256": "301526b2dd0d0769a29aa5857ce2b2beeccc68e45b90417a406ba6ac2c7cdb5d"
+    },
+    {
+      "kind": "method-context",
+      "label": "C7 第七节：购买理由与原话",
+      "start_line": 193,
+      "end_line": 207,
+      "characters": 613,
+      "sha256": "5a170b6ba3d38bfef07fc4dacb7cc996cc2c46ee32fed1f88511dc6ae99c3a20"
+    },
+    {
+      "kind": "method-context",
+      "label": "C8a 第八节：决策路径",
+      "start_line": 209,
+      "end_line": 223,
+      "characters": 466,
+      "sha256": "5c19a9b1fc6b4ae5b33868b0e18e40b940907202290d93eb110454a8aeb20192"
+    },
+    {
+      "kind": "method-context",
+      "label": "C8b 第八节：100问之后的行动",
+      "start_line": 242,
+      "end_line": 249,
+      "characters": 354,
+      "sha256": "d4139878b7cb84e7a1c0ccbeca05d15f7b36a322eb7cfb13fa6ca233ea244a49"
+    },
+    {
+      "kind": "method-context",
+      "label": "C9a 第九节：从同业数据发现账号与模板",
+      "start_line": 251,
+      "end_line": 267,
+      "characters": 530,
+      "sha256": "22e65e4a866ea53a3a71f823d27855cfae28b2d8e51e98a35e647669eed615a8"
+    },
+    {
+      "kind": "method-context",
+      "label": "C9b 第九节：实际填写示例与母本完整性",
+      "start_line": 321,
+      "end_line": 323,
+      "characters": 255,
+      "sha256": "eca28dcf7687e9504b1b4ac303fd7d40f59a1a5fdf95f210a10d4284c8485f54"
+    },
+    {
+      "kind": "method-context",
+      "label": "C10 第十节：踩坑、真实成交与第二轮",
+      "start_line": 326,
+      "end_line": 350,
+      "characters": 1213,
+      "sha256": "8fc3ac36f5b7d74ccfee670fc093ef9e2172ae5e75fd59deaf661849822fead2"
+    },
+    {
+      "kind": "method-context",
+      "label": "C11 第十一节：调研交付清单",
+      "start_line": 353,
+      "end_line": 357,
+      "characters": 313,
+      "sha256": "c4ab7fdd832a6f24b58e24354e85a07101e638f90ef0a040770bd436b89a942c"
+    },
+    {
+      "kind": "method-context",
+      "label": "C12 第十二节：代入自己的业务",
+      "start_line": 366,
+      "end_line": 367,
+      "characters": 79,
+      "sha256": "4ad1a59a5e64f630fbb9296692f23e4ce0b915dc7a4e3bd0c8cba57053bd6580"
+    },
+    {
+      "kind": "prompt",
+      "label": "P1",
+      "start_line": 59,
+      "end_line": 71,
+      "characters": 249,
+      "sha256": "f003802ed39442d3ccd64b2059f3ccb748d70454ecf477e4748f16e465359575"
+    },
+    {
+      "kind": "prompt",
+      "label": "P2",
+      "start_line": 86,
+      "end_line": 100,
+      "characters": 208,
+      "sha256": "93bcbd7ef9eed67d00235f6fd27b9c8e81e8deda3dde497a259a86d396c5b404"
+    },
+    {
+      "kind": "prompt",
+      "label": "P3",
+      "start_line": 132,
+      "end_line": 143,
+      "characters": 231,
+      "sha256": "cbb2d4526c337ee530f829ba9a8994a634763a603dd3f0368b044539757b9388"
+    },
+    {
+      "kind": "prompt",
+      "label": "P4",
+      "start_line": 183,
+      "end_line": 190,
+      "characters": 194,
+      "sha256": "5616f57c421bb0c201516da755552df8915cdb38b381a4b186e620627b4798d9"
+    },
+    {
+      "kind": "prompt",
+      "label": "P5",
+      "start_line": 224,
+      "end_line": 241,
+      "characters": 270,
+      "sha256": "077cafb03a1483846efed59f3d24f43d3775ded0af5a50a312d6447e1a50814d"
+    },
+    {
+      "kind": "prompt",
+      "label": "P6",
+      "start_line": 268,
+      "end_line": 320,
+      "characters": 1054,
+      "sha256": "2bc284c1862f7ffd5abf8933fab74a4df2eb82312bdd6a2107aeec91e073aa37"
+    }
+  ],
+  "six_prompts_sha256": "81a78c8a8924b624331be5bd37aa80cb1e2596c36121d0ef0ccfa8c0e3fb6a5d"
+}
