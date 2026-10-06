@@ -1,6 +1,13 @@
 interface:
-  display_name: "凌酱 Skill"
-  short_description: "短视频方向、骨架与成稿，内置逐组互动的灵魂问答，适用于话术、新品与业务落地"
-  default_prompt: "用 $lingjiang-content 帮我处理当前任务；我说“灵魂问答”时，先逐组走完六问，再按任务交付。"
+  display_name: 凌酱 Skill
+  short_description: "短视频方向、骨架与成稿；灵魂问答调用作者六段原始提示词"
+  default_prompt: "用 $lingjiang-content 的灵魂问答，按作者原文提示词执行。"
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
 policy:
   allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

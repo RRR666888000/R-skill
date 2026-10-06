@@ -4,13 +4,13 @@
 
 A reusable text-development skill for one short video at a time. Start with materially different angles, compare the reasons people might watch, then develop an outline the creator can fill with their own experience and voice. A full script is written only when explicitly requested. Account strategy, creator-business planning, batch clip libraries, hands-on editing, finished-video review and performance analysis belong to their respective workflows. The name is a project brand, not a requirement to follow one creator's style or business.
 
-Current method version: **0.6.1**. This release preserves the six Soul Questions and adds post-dialogue delivery, evidence-to-action mapping, reusable wording and structures, handoff summaries, feedback review, and explicitly authorized product simulations. The following describes the preceding 0.5.2 release: This release tightens delivery-state and routing boundaries and adds reproducible Chinese spoken-duration arithmetic. Existing P0 factual-fidelity failures remain documented and were intentionally outside this maintenance pass.
-
-0.6.1 adds a small-sample starting example, a sample-to-benchmark-to-template testing procedure, and a complete-research delivery checklist. The six adapted questions remain unchanged.
+Current method version: **0.7.0**. Soul Questions now contains the six original prompts extracted verbatim from the article text supplied by the user. Internal wording, punctuation, spaces and line breaks are preserved; blank lines separate the prompts. Previous adapted questions and custom research, delivery, handoff and review extensions have been removed. Ordinary video-development rules and documented factual-fidelity limitations remain unchanged.
 
 ## Soul Questions subfeature
 
-Say “灵魂问答” (Soul Questions) with a topic to enter the embedded six-stage dialogue: audience, concrete person, demand, evidence, decision barriers, and business benchmarks. The agent asks one group at a time and carries confirmed answers forward. The module also handles sales copy, new products, business ideas and execution questions; ordinary video-development behavior remains scoped as before. It is bundled in the directory, ZIP and standalone Markdown, with no dependency on another installed skill. The enhanced layer keeps normal dialogue sequential. A simulation uses labeled facts, hypotheses and unknowns; it is not market validation. Updating the skill transfers the method, not private conversation history. See [0.6.0 validation](tests/soul-060/README.md).
+Say “灵魂问答” (Soul Questions) to load and follow [the six original prompts](references/soul-questions.md), shared by aix阿乐 (@Leepriest1990). They are included in the directory, ZIP and standalone Markdown. No rewritten questions or custom workflow are added to the prompt file.
+
+When upgrading, remove the retired official files `references/soul-delivery.md` and `references/soul-research.md`, backing up any local edits first. See [0.7.0 source-fidelity checks](tests/soul-070/README.md). Earlier Soul Questions test records describe superseded releases, not the current original-prompt version.
 
 ## Download for people
 
