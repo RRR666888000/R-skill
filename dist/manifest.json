@@ -1,7 +1,7 @@
 {
   "version": "0.9.0",
   "skill_files": {
-    "SKILL.md": "e9997fb5821aee9f37401e7a58dc15b5c7f6c71b824f09a19e81247ae07ca8c4",
+    "SKILL.md": "93ff1891bd7eb00acd44a4f3484930f96a4f0b4ae364059346f9130ef635b836",
     "LICENSE": "d129b834db1e328f16ae8c874dea7e7b69dc29ed20391798469420e015e099e7",
     "references/audience-audit.md": "05a8ca6fe41b24d8893e9727d66847ea17b6776c33a7cd6ac9fe23114e2ed221",
     "references/commercial.md": "beac532f394268ff2f319c4ec5ac535e4ad5710614674ad8c9ca6fea57e02716",
@@ -16,13 +16,36 @@
     "references/soul-workflow.md": "4d03764050b4e7de8d6cb4ebed5334142c7c1bb6b8d0868823226eca4f6a2341",
     "references/sources.md": "471994fad614a904760fb5ade1cd122d4fa0cb1031ec1b58d5f85814002c3df0",
     "agents/openai.yaml": "a6f4d9105e08be553c258827bc2e98dc387538b1baf7f1dd4ea6978ffa93f3a1",
-    "scripts/estimate_duration.py": "9f03ccc49fc27e092a78c8749565c94d3a229668c8fad79a0dfc63f53e32e454"
+    "scripts/estimate_duration.py": "9f03ccc49fc27e092a78c8749565c94d3a229668c8fad79a0dfc63f53e32e454",
+    "modules/live-ops/BUILD_MANIFEST.json": "fda2b8e1e40c170a8f6309674342f04af98122e7e921d1d3aa2fd2f4649d4cb1",
+    "modules/live-ops/SKILL.md": "01e133369238187c00dd1ab3f0dfc973085f1004e0c70fbbf921d4ff048254cc",
+    "modules/live-ops/references/capabilities/eight-audience-segments.md": "f38d08abad19aa926f7614ff782a6c4e746de1e41163d8886ba6c646977c6d92",
+    "modules/live-ops/references/capabilities/four-force-diagnosis.md": "a3486537d19b3f82174dd1b33e85c4c0a25633c88d1f3a67ad461359073ab931",
+    "modules/live-ops/references/capabilities/host-60-score.md": "ff36157d43e55461d78ddad7589f4ef9b69cff6c0bbbfd16818931231cac32c6",
+    "modules/live-ops/references/capabilities/live-setup-benchmarking.md": "4fd5f5913950a0ff38886f216b7243aceeccdb16d56f0d17030ca1c412b87f1b",
+    "modules/live-ops/references/capabilities/pfabes-scripting.md": "5fb432377bb9b97ac75a323a59b2bacf61ed3ba9f98082f226a413aacfa4fc13",
+    "modules/live-ops/references/capabilities/product-differentiation.md": "f3155f5f2665249824d0ccbaa201ff9ab7d1deb50496b42414f8f054b7b94aa0",
+    "modules/live-ops/references/capabilities/purchase-motivation.md": "5bd877e0c4db47c12b1b1ed21e15fb68f82c14b79605c175188bd13fcfaffde7",
+    "modules/live-ops/references/capabilities/ren-huo-chang.md": "8261aab5095abb5c0c10eff7215c16ef9d8c59b0b3d7b02f121912a7410f920a",
+    "modules/live-ops/references/capabilities/script-audit.md": "c3000630e18a068c270defc67bea8e1e380636555f5c34bc8590087661adfc63",
+    "modules/live-ops/references/capabilities/script-table-iteration.md": "c0a078c0daaa5ba02181969ee2e1aab9d38db732968c63740c83c9ce4d24c082",
+    "modules/live-ops/references/capabilities/seven-word-translation.md": "0351c88ec42c8a7bdf125947829b6f56ec24f53bcf820fbbb6b7f70b8c781874",
+    "modules/live-ops/references/capabilities/short-video-structure.md": "dfe11a4182e219227509c4a91b2c5c9aef2db1d30a85eca8a43463052490f9a1",
+    "modules/live-ops/references/capabilities/traffic-diagnosis.md": "2b73a18296358867a1f42553a083947e3f921b984fe10076936782a4b6598ff6",
+    "modules/live-ops/references/capability-index.md": "7b64ea90fb1b8065738580868adc37aac8fe4b65bb8c2f0bb464540d8073db98",
+    "modules/live-ops/references/cheatsheet.md": "8189e1673bd378d73e68808760817de653a99b466282bd19cdf8b3bd4f88a27e",
+    "modules/live-ops/references/glossary.md": "ee70e277894345bf4a4381aa28828c985e812a8eb6dd797b442b087f15693793",
+    "modules/live-ops/references/overview.md": "ae3bb022dca8e5487aab3a38b1543454a3815a671dcaea3093466d7b1e58e5d2",
+    "modules/live-ops/resources/host-scorecard.md": "52a2b805b340e99a36e5ee889f04436757ef2df78880ea62d1d140368a3f3393",
+    "modules/live-ops/resources/pfabes-table.csv": "743da5017b7c790f479b401d246737ef5126ec6685f55d93c44087158383f979",
+    "modules/live-ops/resources/script-audit-template.md": "a8c810debd800b139f313136876cbb9a22cef20f96e2edccb0cd09e3cf91a075",
+    "modules/live-ops/resources/seven-word-table.csv": "62772b84c5b87569ec887de57c64d000c317ac4ae7b5a98b0ee1089ee7ba3c63"
   },
   "artifacts": {
-    "lingjiang-content.md": "41c3d5e043e0b948225671d942de7707513597a74e71ff80a54da282bb031034",
-    "lingjiang-content.zip": "47d9b9d514cb42ee2ccc5903d058284a165eaf4654236fc2c793840106d0954b"
+    "lingjiang-content.md": "5c3b0a6e268987cbccf5eb5dd98ec84114ba76be619bd811e0486d01789770a5",
+    "lingjiang-content.zip": "478a7762b298ee75365f5f9f9a4613e738dab5931760354b58744ae8e3bc4540"
   },
-  "single_file_characters": 44202,
+  "single_file_characters": 113050,
   "runtime_dependencies": [],
   "optional_runtime_dependencies": [
     "Python 3.9+ for scripts/estimate_duration.py"

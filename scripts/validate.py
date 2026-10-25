@@ -9,7 +9,7 @@ entry=(ROOT/'SKILL.md').read_text(encoding='utf-8')
 assert entry.startswith('---\n') and '\n---\n' in entry[4:]
 assert re.search(r'^name: lingjiang-content$',entry,re.M)
 assert re.search(r'^description: .+',entry,re.M)
-for p in [ROOT/'SKILL.md',*sorted((ROOT/'references').glob('*.md'))]:
+for p in [ROOT/'SKILL.md',*sorted((ROOT/'references').glob('*.md')),*sorted((ROOT/'modules').glob('*/SKILL.md'))]:
     s=p.read_text(encoding='utf-8')
     assert not re.search(r'/Users/|/home/|[A-Z]:\\|file://|mcp__|tools\.exec_command',s),p
     for ref in re.findall(r'\]\(([^)]+)\)',s):
@@ -21,6 +21,16 @@ for rel,digest in m['skill_files'].items():assert sha(ROOT/rel)==digest,rel
 for rel,digest in m['artifacts'].items():assert sha(ROOT/'dist'/rel)==digest,rel
 single=(ROOT/'dist/lingjiang-content.md').read_text(encoding='utf-8')
 for p in (ROOT/'references').glob('*.md'):assert p.read_text(encoding='utf-8') in single,p
+# 子模块：全部文件须进 ZIP；能力卡等内部链接缺失只警告（能力卡原文不在本包修改范围）
+module_files=sorted(str(p.relative_to(ROOT)) for p in (ROOT/'modules').rglob('*') if p.is_file())
+assert module_files and 'modules/live-ops/SKILL.md' in module_files
+assert all(x in m['skill_files'] for x in module_files),'modules not packaged'
+warnings=[]
+for p in (ROOT/'modules').rglob('*.md'):
+    for ref in re.findall(r'\]\(([^)]+)\)',p.read_text(encoding='utf-8')):
+        if ref.startswith(('https://','http://','#')):continue
+        if not (p.parent/ref.split('#')[0]).resolve().is_file():warnings.append(f'{p.relative_to(ROOT)} -> {ref}')
+assert '<a id="module-live-ops-SKILL"></a>' in single
 anchors=set(re.findall(r'<a id="([^"]+)"',single))
 assert all(x in anchors for x in re.findall(r'\]\(#([^)]+)\)',single))
 assert not re.search(r'\]\((?!#|https?://)[^)]+\)',single)
@@ -33,9 +43,10 @@ with zipfile.ZipFile(ROOT/'dist/lingjiang-content.zip') as z:
         moved=Path(temp)/'中文 path with spaces';z.extractall(moved)
         shutil.rmtree(moved/'agents')
         assert (moved/'SKILL.md').is_file()
-        for ref in re.findall(r'\]\((references/[^)#]+\.md)\)',entry):assert (moved/ref).is_file()
+        for ref in re.findall(r'\]\(((?:references|modules)/[^)#]+\.md)\)',entry):assert (moved/ref).is_file(),ref
+        assert (moved/'modules/live-ops/SKILL.md').is_file() and len(list((moved/'modules/live-ops/references/capabilities').glob('*.md')))==13
 duration=json.loads(subprocess.check_output([sys.executable,str(ROOT/'scripts/estimate_duration.py'),'--units','418','--cpm-min','120','--cpm-max','120','--pause-seconds','3'],text=True))
 assert duration['spoken_units']==418
 assert duration['speech_seconds']=={'min':209.0,'max':209.0}
 assert duration['total_seconds']=={'min':212.0,'max':212.0}
-print(json.dumps({'version':m['version'],'structure':'pass','relative_links':'pass','artifact_hashes':'pass','root_skill_zip':'pass','portable_relocation':'pass','scope':'Static package and same-source artifacts; not model behavior, all-host discovery or real video performance.'},ensure_ascii=False))
+print(json.dumps({'version':m['version'],'structure':'pass','relative_links':'pass','artifact_hashes':'pass','root_skill_zip':'pass','portable_relocation':'pass','modules_packaged':len(module_files),'module_link_warnings':warnings,'scope':'Static package and same-source artifacts; not model behavior, all-host discovery or real video performance.'},ensure_ascii=False))

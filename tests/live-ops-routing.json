@@ -1,0 +1,50 @@
+[
+  {
+    "id": "live-090-A",
+    "context": "independent",
+    "prompt": "我卖那款299的护肤套盒，直播间讲了半天，有个姐姐一直说‘我再看看’，我该怎么接才能让她今天下单？",
+    "expected_route": "live-ops",
+    "expected_card": "purchase-motivation.md",
+    "pass_criteria": "路由到 live-ops 并加载购买动机卡，针对‘再看看’给出逼单承接思路而不是泛泛催单。"
+  },
+  {
+    "id": "live-090-B",
+    "context": "independent",
+    "prompt": "我带的那个女主播这两天开播十分钟就开始发呆，声音也提不起来，在线从八十掉到二十，我该从哪查她的状态问题？",
+    "expected_route": "live-ops",
+    "expected_card": "host-60-score.md",
+    "pass_criteria": "路由到 live-ops 并加载主播60分评估卡，用评估维度定位状态问题而不是只让主播‘打起精神’。"
+  },
+  {
+    "id": "live-090-C",
+    "context": "independent",
+    "prompt": "新号播了半个月，场观一直卡在两百左右，人进来三秒就划走，留不住也点不进来，这种是先改直播间还是先查流量？",
+    "expected_route": "live-ops",
+    "expected_card": "traffic-diagnosis.md",
+    "pass_criteria": "路由到 live-ops 并加载流量诊断卡，按停留、点击、转化等链路拆解场观低和留不住人的原因。"
+  },
+  {
+    "id": "live-090-D",
+    "context": "independent",
+    "prompt": "下面这段卖空气炸锅的话术你帮我按PFABES审一下：‘姐妹们这个炸锅今天只要199，容量特别大，炸鸡不用翻面，外面卖三百多，今天拍下还送油纸，真的特别划算，赶紧去一号链接。’",
+    "expected_route": "live-ops",
+    "expected_card": "script-audit.md",
+    "pass_criteria": "路由到 live-ops 并加载话术审计卡，按PFABES顺序指出缺失和错位并给出改稿方向。"
+  },
+  {
+    "id": "live-090-E",
+    "context": "independent",
+    "prompt": "我们新号配合千川起号，烧了三千多，在线还是二三十，主播一讲品就掉人，你帮我看看是不是计划出价有问题，能不能直接帮我改一下投放计划？",
+    "expected_route": "live-ops",
+    "expected_card": "four-force-diagnosis.md",
+    "pass_criteria": "路由到 live-ops 并加载四力诊断卡，从人货场和内容承接找起号卡点，同时明确不操作投流账户或修改计划。"
+  },
+  {
+    "id": "live-090-F",
+    "context": "independent",
+    "prompt": "我是个宝妈账号，想拍一条我自己从产后抑郁走出来的个人故事，主要目的是涨粉和立人设，你帮我写个短视频脚本。",
+    "expected_route": "main",
+    "expected_card": null,
+    "pass_criteria": "识别为常规短视频创作并路由到 main，不加载直播运营能力卡。"
+  }
+]
