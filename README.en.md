@@ -22,6 +22,23 @@ Live-selling blockers — closing, scripts, product rounds, retention, the host,
 npx skills add RRR666888000/R-skill
 ```
 
+### No Node installed?
+
+1. Install Node: download the LTS from [nodejs.org](https://nodejs.org), or on a Mac run `brew install node`.
+2. Skip Node and use git. Install:
+
+```bash
+git clone https://github.com/RRR666888000/R-skill ~/.agents/skills/lingjiang-content
+```
+
+Update:
+
+```bash
+cd ~/.agents/skills/lingjiang-content && git pull
+```
+
+For Claude Code, use `~/.claude/skills/lingjiang-content` instead.
+
 ## Update
 
 ```bash

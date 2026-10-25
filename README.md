@@ -22,6 +22,24 @@
 npx skills add RRR666888000/R-skill
 ```
 
+### 没装 Node 怎么办
+
+① 安装 Node：到 [nodejs.org](https://nodejs.org) 下载 LTS，或在 Mac 上运行 `brew install node`。
+
+② 完全不用 Node，用 git。安装：
+
+```bash
+git clone https://github.com/RRR666888000/R-skill ~/.agents/skills/lingjiang-content
+```
+
+更新：
+
+```bash
+cd ~/.agents/skills/lingjiang-content && git pull
+```
+
+用 Claude Code 的话，把路径换成 `~/.claude/skills/lingjiang-content`。
+
 ## 更新
 
 ```bash
