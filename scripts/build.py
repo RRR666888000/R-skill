@@ -13,12 +13,35 @@ body=body[:start]+'## 使用这份单文件\n\n本文件包含完整方法与参
 for ref in refs:body=body.replace(']('+ref+')','](#section-'+Path(ref).stem+')')
 text='# 凌酱 Skill · 通用单文件版\n\n版本 '+version+'。面向所有短视频创作者；适用于能读取完整附件或文本的Agent。\n\n'+body
 for ref in refs:text+='\n\n---\n\n<a id="section-'+Path(ref).stem+'"></a>\n\n'+(ROOT/ref).read_text(encoding='utf-8')
+# 子模块（如 modules/live-ops）：入口与其 references 内联进单文件；ZIP 原样收入整个目录。
+MOD_ROOT=ROOT/'modules'
+module_entries=sorted(MOD_ROOT.glob('*/SKILL.md')) if MOD_ROOT.is_dir() else []
+def module_anchor(p):return 'module-'+'-'.join(p.relative_to(MOD_ROOT).with_suffix('').parts)
+def module_text(p):
+    s=p.read_text(encoding='utf-8')
+    if p.name=='SKILL.md' and s.startswith('---\n'):s=s.split('---',2)[2].lstrip()
+    # 单文件里不保留相对链接：.md 指向已内联章节时改为锚点，其余改为纯文本路径说明
+    def fix(m):
+        label,target=m.group(1),m.group(2)
+        if target.startswith(('http://','https://','#')):return m.group(0)
+        dest=(p.parent/target.split('#')[0]).resolve()
+        if dest.suffix=='.md' and dest.is_file() and dest.is_relative_to(MOD_ROOT):return '['+label+'](#'+module_anchor(dest)+')'
+        rel=dest.relative_to(ROOT) if dest.is_relative_to(ROOT) else target
+        return label+'（目录/ZIP 安装中的 `'+str(rel)+'`）'
+    return re.sub(r'\[([^\]]*)\]\(([^)]+)\)',fix,s)
+module_files=[]
+for entry_p in module_entries:
+    mdir=entry_p.parent
+    mds=[entry_p]+sorted(x for x in mdir.rglob('*.md') if x!=entry_p)
+    for x in mds:text+='\n\n---\n\n<a id="'+module_anchor(x)+'"></a>\n\n'+module_text(x)
+    module_files+=sorted(x for x in mdir.rglob('*') if x.is_file())
+text=text.replace('](modules/live-ops/SKILL.md)','](#module-live-ops-SKILL)')
 text+='\n\n---\n\n## License\n\n'+(ROOT/'LICENSE').read_text(encoding='utf-8')+'\n'
 dist=ROOT/'dist';dist.mkdir(exist_ok=True)
 (dist/'lingjiang-content.md').write_text(text,encoding='utf-8')
 runtime_scripts=[ROOT/'scripts'/'estimate_duration.py']
 assert all(p.is_file() for p in runtime_scripts)
-files=[ROOT/'SKILL.md', ROOT/'LICENSE']+sorted((ROOT/'references').glob('*.md'))+sorted((ROOT/'agents').glob('*.yaml'))+runtime_scripts
+files=[ROOT/'SKILL.md', ROOT/'LICENSE']+sorted((ROOT/'references').glob('*.md'))+sorted((ROOT/'agents').glob('*.yaml'))+runtime_scripts+module_files
 with zipfile.ZipFile(dist/'lingjiang-content.zip','w',zipfile.ZIP_DEFLATED) as z:
     for p in files:
         info=zipfile.ZipInfo(str(p.relative_to(ROOT)),date_time=(2026,1,1,0,0,0));info.compress_type=zipfile.ZIP_DEFLATED;info.external_attr=0o644<<16;z.writestr(info,p.read_bytes())
