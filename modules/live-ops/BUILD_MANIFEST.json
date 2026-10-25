@@ -1,0 +1,47 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "SKILL.md": "09d05eb825e4969c280c54ff10a3ac31690fd8a89bc65d8a990a3a687654d975",
+    "references/capabilities/eight-audience-segments.md": "f38d08abad19aa926f7614ff782a6c4e746de1e41163d8886ba6c646977c6d92",
+    "references/capabilities/four-force-diagnosis.md": "a3486537d19b3f82174dd1b33e85c4c0a25633c88d1f3a67ad461359073ab931",
+    "references/capabilities/host-60-score.md": "ff36157d43e55461d78ddad7589f4ef9b69cff6c0bbbfd16818931231cac32c6",
+    "references/capabilities/live-setup-benchmarking.md": "4fd5f5913950a0ff38886f216b7243aceeccdb16d56f0d17030ca1c412b87f1b",
+    "references/capabilities/pfabes-scripting.md": "5fb432377bb9b97ac75a323a59b2bacf61ed3ba9f98082f226a413aacfa4fc13",
+    "references/capabilities/product-differentiation.md": "f3155f5f2665249824d0ccbaa201ff9ab7d1deb50496b42414f8f054b7b94aa0",
+    "references/capabilities/purchase-motivation.md": "5bd877e0c4db47c12b1b1ed21e15fb68f82c14b79605c175188bd13fcfaffde7",
+    "references/capabilities/ren-huo-chang.md": "8261aab5095abb5c0c10eff7215c16ef9d8c59b0b3d7b02f121912a7410f920a",
+    "references/capabilities/script-audit.md": "c3000630e18a068c270defc67bea8e1e380636555f5c34bc8590087661adfc63",
+    "references/capabilities/script-table-iteration.md": "c0a078c0daaa5ba02181969ee2e1aab9d38db732968c63740c83c9ce4d24c082",
+    "references/capabilities/seven-word-translation.md": "0351c88ec42c8a7bdf125947829b6f56ec24f53bcf820fbbb6b7f70b8c781874",
+    "references/capabilities/short-video-structure.md": "dfe11a4182e219227509c4a91b2c5c9aef2db1d30a85eca8a43463052490f9a1",
+    "references/capabilities/traffic-diagnosis.md": "2b73a18296358867a1f42553a083947e3f921b984fe10076936782a4b6598ff6",
+    "references/capability-index.md": "7b64ea90fb1b8065738580868adc37aac8fe4b65bb8c2f0bb464540d8073db98",
+    "references/cheatsheet.md": "8189e1673bd378d73e68808760817de653a99b466282bd19cdf8b3bd4f88a27e",
+    "references/glossary.md": "ee70e277894345bf4a4381aa28828c985e812a8eb6dd797b442b087f15693793",
+    "references/overview.md": "ae3bb022dca8e5487aab3a38b1543454a3815a671dcaea3093466d7b1e58e5d2",
+    "resources/host-scorecard.md": "52a2b805b340e99a36e5ee889f04436757ef2df78880ea62d1d140368a3f3393",
+    "resources/pfabes-table.csv": "743da5017b7c790f479b401d246737ef5126ec6685f55d93c44087158383f979",
+    "resources/script-audit-template.md": "a8c810debd800b139f313136876cbb9a22cef20f96e2edccb0cd09e3cf91a075",
+    "resources/seven-word-table.csv": "62772b84c5b87569ec887de57c64d000c317ac4ae7b5a98b0ee1089ee7ba3c63"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.live-commerce-skill",
+  "bundle_sha256": "c903658c185117ad2ab3fa0245b005db85c918c37d6ea87d6bfa3a72ddbae414",
+  "variant": "single",
+  "run_id": "run-20261024-195809-172d01",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 0,
+    "capability_count": 13,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

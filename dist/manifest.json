@@ -1,7 +1,7 @@
 {
-  "version": "0.8.0",
+  "version": "0.9.0",
   "skill_files": {
-    "SKILL.md": "5d9bf11b7caad97f16afc7d4db4f717b84c1fa03479766c0452b38474cdaae11",
+    "SKILL.md": "e9997fb5821aee9f37401e7a58dc15b5c7f6c71b824f09a19e81247ae07ca8c4",
     "LICENSE": "d129b834db1e328f16ae8c874dea7e7b69dc29ed20391798469420e015e099e7",
     "references/audience-audit.md": "05a8ca6fe41b24d8893e9727d66847ea17b6776c33a7cd6ac9fe23114e2ed221",
     "references/commercial.md": "beac532f394268ff2f319c4ec5ac535e4ad5710614674ad8c9ca6fea57e02716",
@@ -14,15 +14,15 @@
     "references/soul-questions.md": "81a78c8a8924b624331be5bd37aa80cb1e2596c36121d0ef0ccfa8c0e3fb6a5d",
     "references/soul-source-context.md": "03adc5860d41812472281680a52ba33a3312775b79b2988c7792dbd6ad5ef274",
     "references/soul-workflow.md": "4d03764050b4e7de8d6cb4ebed5334142c7c1bb6b8d0868823226eca4f6a2341",
-    "references/sources.md": "91f4d18041a67841b5e42ba28c06c8e7a02c4f0a587a39874b74075650bd6bac",
+    "references/sources.md": "471994fad614a904760fb5ade1cd122d4fa0cb1031ec1b58d5f85814002c3df0",
     "agents/openai.yaml": "a6f4d9105e08be553c258827bc2e98dc387538b1baf7f1dd4ea6978ffa93f3a1",
     "scripts/estimate_duration.py": "9f03ccc49fc27e092a78c8749565c94d3a229668c8fad79a0dfc63f53e32e454"
   },
   "artifacts": {
-    "lingjiang-content.md": "b2a99c64c99e34a4cb4404389a73ae0a80274be04d4cbf23c1d034a36fbc8c7e",
-    "lingjiang-content.zip": "aa5f98fe190f5f4a5f3885dee1bca0a996e7c452cd6041e14734e683cf37e8ea"
+    "lingjiang-content.md": "41c3d5e043e0b948225671d942de7707513597a74e71ff80a54da282bb031034",
+    "lingjiang-content.zip": "47d9b9d514cb42ee2ccc5903d058284a165eaf4654236fc2c793840106d0954b"
   },
-  "single_file_characters": 43239,
+  "single_file_characters": 44202,
   "runtime_dependencies": [],
   "optional_runtime_dependencies": [
     "Python 3.9+ for scripts/estimate_duration.py"
